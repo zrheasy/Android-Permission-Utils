@@ -7,7 +7,7 @@
 #### 1. 将aar添加到项目依赖中。
 ```groovy
 dependencies {
-    implementation(name: 'permission-utils-v1.0', ext: 'aar')
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
 }
 ```
 
